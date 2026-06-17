@@ -6,11 +6,11 @@ O projeto foi criado com foco em responsividade, organização visual e utiliza�
 
 ## 🚀 Demonstração
 
-🔗 Deploy: [Adicionar link da Vercel]
+🔗 Deploy: https://ranch-burger.vercel.app/
 
 ## 📸 Preview
 
-Adicione aqui uma captura de tela do projeto.
+![Preview do projeto](./preview-ranch.png)
 
 ## ✨ Funcionalidades
 
@@ -84,6 +84,3 @@ Augusto Maschio
 
 GitHub:
 https://github.com/AugustoMaschio
-
-Vercel:
-https://ranch-burger.vercel.app/
