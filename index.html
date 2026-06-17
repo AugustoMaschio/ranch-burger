@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ranch Burguer</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">Ranch Burger</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-o-restaurante" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre a Ranch Burger
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#eventos" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Eventos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#cardapio" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Cardápio
+                        </a>    
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-o-restaurante">
+        <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button> 
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                    <img src="./images/slides/slide1.png" class="d-block w-100" alt="Imagem do restaurante">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="./images/slides/slide2.png" class="d-block w-100" alt="Imagem de taças de vinho">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="./images/slides/burguer-mesa.jpg" class="d-block w-100" alt="imagem de hamburguer na mesa">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span> 
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>       
+        </div>
+        <div class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img src="./images/restaurante.jpg" class="d-block w-100 rounded" alt="Imagem do restaurante">
+                    </div>
+                    <div class="col-md-7 mt-3 mt-md-0">
+                        <h2 class="section-title">Sobre a Ranch Burguer</h2>
+                        <p>
+                            A Ranch Burger nasceu da paixão pelo estilo western e pelos hambúrgueres artesanais feitos com ingredientes selecionados. Nosso objetivo é oferecer uma experiência única, combinando sabor, ambiente temático e atendimento de qualidade.                        </p>
+                        <h3 class="section-title">Sobre o espaço</h3>
+                        <p>
+                            Inspirado nos ranchos do velho oeste, nosso ambiente foi pensado para reunir amigos e famílias em momentos especiais. Aqui você encontra conforto, boa música e os melhores burgers da região.                 
+                        </p>
+                        <ul>
+                            <li>Hambúrgueres artesanais</li>
+                            <li>Ambiente temático</li>
+                            <li>Atendimento de qualidade</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+        <section id="eventos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Para todas as ocasiões</h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="./images/eventos/aniversario.jpg" alt="imagem de aniversário" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-cake2-fill"></i>
+                            Aniversários
+                        </h3>
+                        <p>
+                            Celebre seu aniversário com muito sabor e diversão em um ambiente temático exclusivo.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./images/eventos/casamento.jpg" alt="imagem de Casamento" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-arrow-through-heart-fill me-1"></i>
+                            Encontros e comemorações
+                        </h3>
+                        <p>
+                            Reúna amigos e familiares para aproveitar nossos burgers artesanais e momentos inesquecíveis.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./images/eventos/confraternizacoes.jpg" alt="imagem de confraternização" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-people-fill me-1"></i>
+                            Confraternizações
+                        </h3>
+                        <p>
+                            Espaço ideal para confraternizações empresariais e reuniões em um ambiente descontraído.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="cardapio" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Nosso cardápio</h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav flex-column nav-pills nav-cardapio">
+                            <button data-bs-toggle="tab" data-bs-target="#refrigerantes-e-sucos" type="button" class="fw-bold text-start nav-link text-colored active">Refrigerantes e Sucos</button>
+                            <button data-bs-toggle="tab" data-bs-target="#cervejas-artesanais" type="button" class="fw-bold text-start nav-link text-colored">Cervejas Artesanais</button>
+                            <button data-bs-toggle="tab" data-bs-target="#porcoes" type="button" class="fw-bold text-start nav-link text-colored">Porções</button>
+                            <button data-bs-toggle="tab" data-bs-target="#burgers" type="button" class="fw-bold text-start nav-link text-colored">Burgers</button>
+                            <button data-bs-toggle="tab" data-bs-target="#sobremesas" type="button" class="fw-bold text-start nav-link text-colored">Sobremesas</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="refrigerantes-e-sucos">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/cardapio/bebidas/coca-cola.jpg" alt="Imagem de Coca-cola">
+                                        <h5 class="text-colored fw-bold mt-2">Refrigerantes</h5>
+                                        <p>
+                                            Lata gelada disponível nos principais sabores para acompanhar seu burger favorito.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/cardapio/bebidas/suco.jpg" alt="Imagem de Suco">
+                                        <h5 class="text-colored fw-bold mt-2">Sucos</h5>
+                                        <p>
+                                            Preparado na hora com frutas selecionadas, trazendo frescor e sabor em cada gole.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="cervejas-artesanais">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/cardapio/bebidas/cerveja.jpg" alt="Imagem de cerveja">
+                                        <h5 class="text-colored fw-bold mt-2">Pilsen Artesanal</h5>
+                                        <p>
+                                            Cerveja leve e refrescante, perfeita para harmonizar com nossos hambúrgueres.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/cardapio/bebidas/chopp.jpg" alt="Imagem de chopp">
+                                        <h5 class="text-colored fw-bold mt-2">Chopp</h5>
+                                        <p>
+                                            Servido sempre gelado, com colarinho cremoso e sabor equilibrado.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/cardapio/bebidas/vinho.jpg" alt="Imagem de vinho">
+                                        <h5 class="text-colored fw-bold mt-2">Vinhos</h5>
+                                        <p>
+                                            Seleção de vinhos tintos e brancos, ideais para acompanhar nossos pratos especiais.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="porcoes">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/cardapio/porções/batata-frita.jpg" alt="Imagem de batata frita">
+                                        <h5 class="text-colored fw-bold mt-2">Batata Ranch</h5>
+                                        <p>
+                                            Batata frita com cheddar, bacon e cebolinha.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/cardapio/porções/onion-rings.jpg" alt="Imagem de onion rings">
+                                        <h5 class="text-colored fw-bold mt-2">Onion Rings</h5>
+                                        <p>
+                                            Anéis de cebola tempurados e servidos com molho especial.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/cardapio/porções/costelinha.jpg" alt="Imagem de costelinha BBQ">
+                                        <h5 class="text-colored fw-bold mt-2">Costelinha BBQ</h5>
+                                        <p>
+                                            Costelinha de porco defumada e servida com molho barbecue.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/cardapio/porções/frango-frito.jpg" alt="Imagem de frango à Passarinho">
+                                        <h5 class="text-colored fw-bold mt-2">Frango à Passarinho</h5>
+                                        <p>
+                                            Pedaços de frango temperados e fritos, servidos com molho de pimenta.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="burgers">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/cardapio/burguers/adam-bartoszewicz-vdkyWisomns-unsplash.jpg" alt="Hamburguer">
+                                        <h5 class="text-colored fw-bold mt-2">Cowboy Burger</h5>
+                                        <p>
+                                            Pão brioche, hambúrguer artesanal de 180g, queijo cheddar, alface, tomate e nosso molho especial Ranch.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/cardapio/burguers/amirali-mirhashemian-88YAXjnpvrM-unsplash.jpg" alt="hamburguer bacon">
+                                        <h5 class="text-colored fw-bold mt-2">Texas Bacon</h5>
+                                        <p>
+                                            Hambúrguer artesanal, cheddar cremoso, bacon crocante em dobro, cebola caramelizada e molho barbecue defumado.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/cardapio/burguers/stu-moffat-XrOt_QxbKq0-unsplash.jpg" alt="hamburguer double">
+                                        <h5 class="text-colored fw-bold mt-2">Double Ranch</h5>
+                                        <p>
+                                            Dois hambúrgueres artesanais de 120g, queijo cheddar, picles, cebola roxa e molho exclusivo da casa..
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="sobremesas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/cardapio/sobremesas/cupcake.jpg" alt="Cupcake">
+                                        <h5 class="text-colored fw-bold mt-2">Cupcake</h5>
+                                        <p>
+                                            Cupcake com cobertura de morango.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/cardapio/sobremesas/bolo.jpg" alt="Bolo">
+                                        <h5 class="text-colored fw-bold mt-2">Bolo</h5>
+                                        <p>
+                                            Bolo de chocolate com cobertura de chantilly.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale conosco</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Nome</label>
+                                <input type="text" id="nome" class="form-control" placeholder="Digite seu nome" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">E-mail</label>
+                                <input type="email" id="email" class="form-control" placeholder="Digite seu e-mail" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Telefone</label>
+                                <input type="tel" id="telefone" class="form-control" placeholder="Digite seu telefone">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Mensagem</label>
+                                <textarea id="mensagem" class="form-control" placeholder="Digite sua mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-ranch fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook me-1 text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-instagram me-1 text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp me-1 text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Rua do restaurante, 123 - São Paulo - SP
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+    
+    <script src="./bootstrap.bundle.min.js"></script>
+</body>
+</html>
