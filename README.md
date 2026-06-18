@@ -10,7 +10,7 @@ O projeto foi criado com foco em responsividade, organização visual e utiliza�
 
 ## 📸 Preview
 
-![Preview do projeto](https://raw.githubusercontent.com/AugustoMaschio/ranch-burger/main/preview-ranch.png)
+![Preview do projeto](preview-ranch.png)
 
 ## ✨ Funcionalidades
 
